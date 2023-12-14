@@ -51,6 +51,15 @@ nav img{
     width: 100px;
 }
 
+
+.centering{
+    height: 100% !important;
+    align-items: center !important;
+    display: flex !important;
+    justify-content:center !important;
+    flex-direction: column !important;
+}
+
 .hero{
     height:calc( 100%-62px);
     display: flex;
@@ -61,11 +70,12 @@ nav img{
     position: relative;
     gap: 23px;
     padding:0  30px;
+    
 
 }
 
 .hero> :first-child{
-    font-size: 33px;
+    font-size: 2.3rem;
     font-weight: 900;
     text-align: center;
 }
@@ -236,8 +246,10 @@ nav img{
         
         padding: 14px !important;
         
-        
-    
+    }
+
+    .centering{
+        margin-top: 0;
     }
 
 }
@@ -391,6 +403,12 @@ section.first > div :nth-child(2){
     max-height: 300px;
     display: block;
     
+}
+
+
+
+.bor{
+    border: 1 px solid white !important;
 }
 
 
